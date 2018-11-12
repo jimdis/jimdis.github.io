@@ -7,7 +7,7 @@ permalink: /about/
 # About me
 Hello there!
 
-I'm Jim Disenstam, a 36 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1. 
+I'm Jim Disenstam, a 36 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1. ![Jim Selfie](/img/jim.jpg)
 
 After getting a degree in economics/finance from Handelshögskolan in Stockholm in 2005, I spent 13 years working in financial advisory and corporate banking, but always feeling at my best in front of Excel rather than doing deals. Producing financial models and writing deeply nested if-statements is when I experienced the flow I used to feel when producing music in Fast Tracker 2 as a teen in the 90s. 
 
