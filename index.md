@@ -4,5 +4,15 @@
 
 layout: home
 ---
-# WHat happens here?
+# What happens here?
 What happens if I change this file?
+
+## Heading 2
+Bla bla
+
+### Heading 3
+Paragraph
+
+List:
+* Hello
+* There
