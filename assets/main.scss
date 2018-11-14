@@ -1,0 +1,74 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+$base-font-family: "Lucida Grande", sans-serif;
+$heading-font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+$text-color:       #313638;
+$background-color: #f6f7f7;
+$brand-color:      #FF6B6B;
+
+@import "minima";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: $base-font-weight;
+    font-family: $heading-font-family;
+    color: $brand-color;
+}
+
+a {
+    &:visited {
+      color: $brand-color;
+    }
+}
+
+.site-header {
+    background-color: $brand-color;
+    border: none;
+}
+
+.site-title {
+    font-family: $heading-font-family;
+    &:hover {
+        color: $background-color;
+        text-decoration: none;
+    }
+}
+
+.page-link {
+    padding-top: $spacing-unit * 1.865 / 2 - $base-font-size / 2;
+    padding-bottom: $spacing-unit * 1.865 / 2 - $base-font-size / 2;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    &:hover {
+        background-color: $background-color;
+        text-decoration: none;
+    }
+    &:not(:last-child) {
+        margin-right: 0;
+      }
+}
+
+.site-footer {
+    background-color: lighten($brand-color, 20%);
+}
+
+.footer-heading {
+    color: $text-color;
+}
+
+.post-content {
+    p {
+        img {
+            max-width: $content-width / 3;
+            float: right;
+            margin: 0 0 10px 20px;
+            border: 1px solid $brand-color;
+        }
+    }
+}
