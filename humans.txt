@@ -1,0 +1,9 @@
+/* Author */
+    Name:       Jim Disenstam
+    Location:   Stockholm, Sweden
+
+/* Site */
+    Built with Jekyll on Github pages using VSCode, Docker, npm.
+
+/* Thanks /*
+    To Johan Leitet and Mats Loock with team at Linnéuniversitetet for excellent courses and guidance.
