@@ -1,8 +1,8 @@
 ---
 layout: home
-title: Welcome!
 list_title: Blog posts
 ---
+# Welcome
 
 Hello!
 
