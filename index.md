@@ -1,7 +1,9 @@
 ---
 layout: home
+title: null
 list_title: Blog posts
 ---
+# Welcome
 
 Hello!
 
