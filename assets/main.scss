@@ -94,7 +94,7 @@ a {
 }
 
 @include media-query($on-palm) {
-    .post-content,
+.post-content,
 .page-content {
     p {
         img {
