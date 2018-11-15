@@ -9,4 +9,4 @@ The [Open Graph Protocol](http://ogp.me) was invented by Facebook to enable deve
 On this site, I simply followed the steps in this [blog post](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/) by pasting the code into my head.html, and creating a [high-resolution logo](http://localhost:4000/assets/img/logo-high-resolution.png) of this site's favicon and putting it in its proper place (using the recommendations in [this post](https://www.h3xed.com/web-and-internet/how-to-use-og-image-meta-tag-facebook-reddit).
 
 ## Update (2018-11-15)
-Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the html head.. That's quite unnecessary, so I undid the above steps..
+Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the html head.. That's quite unnecessary, so I undid the above steps, but kept the og:type and og:image since those were missing in Jekyll's SEO plugin (the Facebook debugger complained about these)..
