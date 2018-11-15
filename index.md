@@ -1,9 +1,9 @@
 ---
 layout: home
-title: null
+title: Welcome
 list_title: Blog posts
+exclude: true
 ---
-# Welcome
 
 Hello!
 
