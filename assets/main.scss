@@ -77,18 +77,32 @@ a {
 }
 
 .post-list-heading {
-clear: both;
-border-top: 1px dashed $brand-color;
-border-bottom: 1px dashed $brand-color;
-background: $grey-color-light;
+    clear: both;
+    border-top: 1px dashed $brand-color;
+    border-bottom: 1px dashed $brand-color;
+    background: $grey-color-light;
 }
 
 .post-list {
     li {
         margin-bottom: 15px;
     }
-.post-link {
-    font-family: $base-font-family;
-    font-size: $base-font-size * 1.25;
+    .post-link {
+        font-family: $base-font-family;
+        font-size: $base-font-size * 1.25;
+    }
+}
+
+@include media-query($on-palm) {
+    .post-content,
+.page-content {
+    p {
+        img {
+            max-width: 100%;
+            float: none;
+            margin: 10px 0 10px 0;
+            border: 1px solid $brand-color;
+        }
+    }
 }
 }

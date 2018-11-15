@@ -6,9 +6,9 @@ permalink: /about/
 
 Hello there!
 
-![Jim Selfie](/assets/img/jim.svg)I'm Jim Disenstam, a 36 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1.
+![Jim Selfie](/assets/img/jim.png)I'm Jim Disenstam, a 36 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1.
 
-After getting a degree in economics/finance from Handelshögskolan in Stockholm in 2005, I spent 13 years working in financial advisory and corporate banking, but always feeling at my best in front of Excel rather than doing deals. Producing financial models and writing deeply nested if-statements is when I experienced the flow I used to feel when producing music in Fast Tracker 2 as a teen in the 90s.
+After getting a degree in economics/finance from Handelshögskolan in Stockholm in 2005, I spent 13 years working in financial advisory and corporate banking, but always feeling at my best in front of Excel rather than doing deals. Producing financial models and writing deeply nested if-statements is when I experienced the flow I used to feel when producing music in FastTracker 2 as a teen in the 90s.
 
 While finance kept getting more and more regulated and less and less creative, a nagging voice kept telling me "you should have studied computer science instead of finance, you sell-out", so having saved up some money and and built up a pretty solid portfolio of stocks, I finally felt it was time for a change.
 
@@ -28,7 +28,7 @@ Why not make this page a bit more personal? Since one of my personality traits (
 >
 > -Michelangelo
 
-Always reading something that will hopefully make me wiser (currently "Sapiens"), always having some sort of health or happiness-related project going on (currently brewing Kombucha), always looking at TED talks or Youtube clips about some topic of intrest (currently retro gaming consoles), and reading blogs about self improvement, health, training etc (a couple of favorites: [Raptitude](https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/) and [James Clear](https://jamesclear.com), or [Leangains](https://leangains.com) for all your training needs!)
+Always reading something that will hopefully make me wiser (currently "Sapiens"), always having some sort of health or happiness-related project going on (currently brewing Kombucha), always looking at TED talks or YouTube clips about some topic of interest (currently retro gaming consoles), and reading blogs about self improvement, health, training etc (a couple of favorites: [Raptitude](https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/) and [James Clear](https://jamesclear.com), or [Leangains](https://leangains.com) for all your training and diet needs!)
 
 ### Investing
 
@@ -52,11 +52,11 @@ I spend several hour per week reading up on companies and their industries throu
 
 ### Training
 
-Growing up a skinny kid and then a skinny-fat teen inadept at any sports, learning to lift weights in my late teens and managing to put on some modest muscle mass really gave me a confidence boost and changed my outlook on life. From seeing sports and training as something inherently negative that you just have to do, to embracing training as a way to set short-term and long-term goals, get feedback, make adjustments, instill discipline and learn patience.
+Growing up a skinny kid and then a skinny-fat teen sucking at sports, learning to lift weights in my late teens and managing to put on some modest muscle mass really gave me a confidence boost and changed my outlook on life. From seeing sports and training as something inherently negative that you just have to do, to embracing training as a way to set short-term and long-term goals, get feedback, make adjustments, instill discipline and learn patience.
 
 ### Misc
 
 Other stuff I try to find the time to do:
 
-- PC Gaming (currently playing a lot of Overwatch, but my favorite games are first person RPGs like the Elder Schrolls series and the Fallout series.) When I was younger I spent countless hours in classic adventure games like Monkey Island and Simon the Sorcerer and simulators like Transport Tycoon.
-- Music production. Currently pretty inactive since it takes too much time, but my DAW of choice is Ableton together with the Push. Before that it was Reason (2001-2012) and before that Fast Tracker 2 (1996-2001). I have a ton of unfinished tracks but at least I published one on [Soundcloud](https://soundcloud.com/jim-disenstam). If you browse old "demoscene" archives you can find my early tracker music under my scene handle ["Polemic"](https://modarchive.org/index.php?request=view_by_moduleid&query=147988).
+- PC Gaming (currently playing a lot of Overwatch, but my favorite games are first person RPGs like the Elder Scrolls series and the Fallout series.) When I was younger I spent countless hours in classic adventure games like Monkey Island and Simon the Sorcerer, and also simulators like Transport Tycoon and Sim City.
+- Music production. Currently pretty inactive since it takes too much time, but my DAW of choice is [Ableton Live](https://www.ableton.com/en/live/) together with the Push hardware. Before that it was [Reason](https://www.propellerheads.com/en/reason) (2001-2012) and before that [FastTracker 2](https://en.wikipedia.org/wiki/FastTracker_2) (1996-2001). I have a ton of unfinished tracks but I plan to publish a bunch of my finished ones on [SoundCloud](https://soundcloud.com/jim-disenstam). If you browse old "demoscene" archives you can find my early tracker music under my scene handle ["Polemic"](https://modarchive.org/index.php?request=view_by_moduleid&query=147988).
