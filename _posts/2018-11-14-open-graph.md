@@ -9,4 +9,24 @@ The [Open Graph Protocol](http://ogp.me) was invented by Facebook to enable deve
 On this site, I simply followed the steps in this [blog post](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/) by pasting the code into my head.html, and creating a [high-resolution logo](http://localhost:4000/assets/img/logo-high-resolution.png) of this site's favicon and putting it in its proper place (using the recommendations in [this post](https://www.h3xed.com/web-and-internet/how-to-use-og-image-meta-tag-facebook-reddit).
 
 ## Update (2018-11-15)
-Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the html head.. That's quite unnecessary, so I undid the above steps, but kept the og:type and og:image since those were missing in Jekyll's SEO plugin (the Facebook debugger complained about these)..
+Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the html head.. That's quite unnecessary, so I undid the above steps, but kept the og:type and og:image since those were missing in Jekyll's SEO plugin (the [Facebook debugger](https://developers.facebook.com/tools/debug/) complained about these).. Also, I had to make some changes in the code to display the image from the relevant post or page by changing file paths to:
+    {% highlight html %}
+    {% raw %}
+    {% if page.feature-img %}
+    <meta content="{{ site.url }}/assets/img/{{ page.feature-img }}" property="og:image">
+    {% else %}
+    <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image">
+    {% endif %}
+    {% endraw %}
+    {% endhighlight %}
+
+This little exercise gave me a good idea: to avoid the work of including an image in markdown AND naming the image in the front matter `feature-img`, I could just modify the html templates to include the front matter image. I found part of the solution on [Stack Overflow](https://stackoverflow.com/questions/47860861/feature-image-not-showing-for-posts-jekyll) that I adjusted a little bit in order to also include a relevant alt tag (important for accessibility):
+ {% highlight html %}
+    {% raw %}
+    {% if page.feature-img %}
+    <img class="feature-image" src="/assets/img/{{ page.feature-img }}" alt="{{ page.image-alt }}" />
+    {% endif %}
+    {% endraw %}
+    {% endhighlight %}
+
+The above code in the "post" and "page" templates together with the front matter variables `feature-img` and `image-alt` provided the solution I was looking for - now the featured image is inserted to the html doc with a proper alt tag, it is included in the open graph property `og:image`, and I also modified the main.scss to display the image properly.

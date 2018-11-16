@@ -8,6 +8,7 @@
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
   {%- include google-analytics.html -%}
   {%- endif -%}
+  <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -16,15 +17,17 @@
   <link rel="author" href="/humans.txt" />
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
   <!-- Open Graph -->
-  {% if page.image %}
-  <meta content="/img/srcset/{{ page.image }}" property="og:image">
-{% else %}
-  <meta content="/img/logo-high-resolution.png" property="og:image">
-{% endif %}
-{% if page.title %}
+  {% if page.feature-img %}
+  <meta content="{{ site.url }}/assets/img/{{ page.feature-img }}" property="og:image">
+  {% else %}
+  <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image">
+  {% endif %}
+  {% if page.title %}
   <meta content="article" property="og:type">
-{% else %}
+  {% else %}
   <meta content="website" property="og:type">
-{% endif %}
+  {% endif %}
 </head>
