@@ -76,8 +76,13 @@ a {
 .feature-image {
     max-width: $content-width / 3;
     float: right;
-    margin: 6px 0 10px 20px;
+    margin: 10px 0 10px 20px;
     border: 1px solid $brand-color;
+}
+
+.wide-image {
+    border: 1px solid $brand-color;
+    margin-bottom: 20px;
 }
 
 .post-content,
@@ -106,6 +111,27 @@ a {
     .post-link {
         font-family: $base-font-family;
         font-size: $base-font-size * 1.25;
+    }
+}
+
+.music-list {
+    h2 {
+        clear: both;
+        font-family: $title-font-family;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin: 30px 0 0 0;
+        border-top: 1px dashed $brand-color;
+        border-bottom: 1px dashed $brand-color;
+        background: $grey-color-light;
+    }
+}
+
+.music-body {
+    border-bottom: 1px dashed $brand-color;
+    background-color: lighten($brand-color, 20%);
+    p {
+        
     }
 }
 
