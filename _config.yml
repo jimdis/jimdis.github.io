@@ -24,12 +24,33 @@ github_username:  jimdis
 disqus:
     shortname: jim-learns-stuff
 
+show_excerpts: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      image-class: "feature-image"
+      image-alt: "Image"
+
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      image-class: "feature-image"
+      image-alt: "Image"
+
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

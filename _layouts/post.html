@@ -16,8 +16,8 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {% if page.feature-img %}
-    <img class="feature-image" src="/assets/img/{{ page.feature-img }}" alt="{{ page.image-alt }}" />
+    {% if page.image %}
+    <img class="{{ page.image-class }}" src="/assets/img/{{ page.image }}" alt="{{ page.image-alt }}" />
     {% endif %}
     {{ content }}
   </div>

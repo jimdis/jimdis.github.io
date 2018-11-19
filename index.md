@@ -3,8 +3,9 @@ layout: home
 title: Welcome
 list_title: Blog posts
 exclude: true
-feature-img: "ducks.jpg"
-image-alt: "Ducks in Stockholm"
+image: "main.jpg"
+image-alt: "Karlbergskanalen"
+image-class: "wide-image"
 ---
 
 Hello!

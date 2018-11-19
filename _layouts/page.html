@@ -8,12 +8,8 @@ layout: default
   </header>
 
   <div class="post-content">
-    {% if page.feature-img %}
-    {% if page.img-class %}
-    <img class="{{ page.img-class }}" src="/assets/img/{{ page.feature-img }}" alt="{{ page.image-alt }}" />
-    {% else %}
-    <img class="feature-image" src="/assets/img/{{ page.feature-img }}" alt="{{ page.image-alt }}" />
-    {% endif %}
+    {% if page.image %}
+    <img class="{{ page.image-class }}" src="/assets/img/{{ page.image }}" alt="{{ page.image-alt }}" />
     {% endif %}
     {{ content }}
   </div>

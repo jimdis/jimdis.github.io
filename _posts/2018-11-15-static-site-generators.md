@@ -2,11 +2,11 @@
 layout: post
 title:  "Static site generators"
 categories: misc
-feature-img: "grandpa-simpson.jpg"
+image: "grandpa-simpson.jpg"
 image-alt: "Grandpa Simpson"
 ---
 
-I've played around with Wordpress in my days - for instance I'm responsible for our tenant's association [website](http://bfkarlsvik.se) built on Wordpress. I also did some basic web stuff in the late 90s for my father's company website (now long gone, but it was based on frames, which [was the style at the time]((https://youtu.be/-o-7MmhqNfA))). Back in the 90s, I sort of knew what I was doing. In Wordpress, I have just edited stuff and downloaded plugins for everything that needs to be tweaked, without really understanding how everything *really* works.
+I've played around with Wordpress in my days - for instance I'm responsible for our tenant's association [website](http://bfkarlsvik.se) built on Wordpress. I also did some basic web stuff in the late 90s for my father's company website (now long gone, but it was based on frames, which [was the style at the time](https://youtu.be/-o-7MmhqNfA)). Back in the 90s, I sort of knew what I was doing. In Wordpress, I have just edited stuff and downloaded plugins for everything that needs to be tweaked, without really understanding how everything *really* works.
 
 ## Learning Jekyll
 

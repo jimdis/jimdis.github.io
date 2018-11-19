@@ -6,8 +6,8 @@ layout: default
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
-  {% if page.feature-img %}
-  <img class="feature-image" src="/assets/img/{{ page.feature-img }}" alt="{{ page.image-alt }}" />
+  {% if page.image %}
+  <img class="{{ page.image-class }}" src="/assets/img/{{ page.image }}" alt="{{ page.image-alt }}" />
   {% endif %}
   {{ content }}
 
@@ -24,7 +24,8 @@ layout: default
         </a>
       </h3>
       {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
+      {{ post.excerpt | remove: "</p>" }}
+      <a href="{{ post.url | relative_url }}">Read more...</a></p>
       {%- endif -%}
     </li>
     {%- endfor -%}

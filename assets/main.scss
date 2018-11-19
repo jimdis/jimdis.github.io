@@ -44,6 +44,12 @@ a {
         color: $background-color;
         text-decoration: none;
     }
+    &::before {
+        content: "<"
+    }
+    &::after {
+        content: ">"
+    }
 }
 
 .site-nav {
@@ -112,10 +118,15 @@ a {
         font-family: $base-font-family;
         font-size: $base-font-size * 1.25;
     }
+    p {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
 }
 
 .music-list {
     h2 {
+        padding-left: 10px;
         clear: both;
         font-family: $title-font-family;
         letter-spacing: 5px;
@@ -124,14 +135,32 @@ a {
         border-top: 1px dashed $brand-color;
         border-bottom: 1px dashed $brand-color;
         background: $grey-color-light;
+        &::before {
+        content: "<"
+        }
+        &::after {
+            content: ">"
+            }
     }
 }
 
 .music-body {
     border-bottom: 1px dashed $brand-color;
     background-color: lighten($brand-color, 20%);
+    
+    table {
+        margin-bottom: 0;
+    }
+    
     p {
-        
+        margin: 0;
+        padding: 10px 15px;
+    }
+
+    td:first-child, em {
+        font-weight: bold;
+        font-style: normal;
+        color: $grey-color-dark;
     }
 }
 

@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 permalink: /blog/
-feature-img: "tunnel.jpg"
+image: "tunnel.jpg"
 image-alt: "A tunnel in Solna"
 ---
 
@@ -21,7 +21,8 @@ image-alt: "A tunnel in Solna"
       </a>
     </h3>
     {%- if site.show_excerpts -%}
-    {{ post.excerpt }}
+    {{ post.excerpt | remove: "</p>" }}
+    <a href="{{ post.url | relative_url }}">Read more...</a></p>
     {%- endif -%}
   </li>
   {%- endfor -%}
