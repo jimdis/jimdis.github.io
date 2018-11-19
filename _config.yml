@@ -27,16 +27,14 @@ disqus:
 show_excerpts: true
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "posts"
     values:
       image-class: "feature-image"
       image-alt: "Image"
 
-  -
-    scope:
+  - scope:
       path: ""
       type: "pages"
     values:
