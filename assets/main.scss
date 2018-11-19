@@ -124,7 +124,7 @@ a {
         font-family: $base-font-family;
         font-size: $base-font-size * 1.25;
     }
-    p {
+    p, code {
         font-size: $small-font-size;
         color: $grey-color;
     }
