@@ -2,7 +2,7 @@
 layout: post
 title:  "Static site generators"
 categories: misc
-image: "grandpa-simpson.jpg"
+main-image: "grandpa-simpson.jpg"
 image-alt: "Grandpa Simpson"
 ---
 

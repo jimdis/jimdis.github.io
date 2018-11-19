@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Open Graph"
+title:  "Open Graph and Image front matter"
 categories: misc
 ---
 
@@ -8,20 +8,26 @@ The [Open Graph Protocol](http://ogp.me) was invented by Facebook to enable deve
 
 On this site, I simply followed the steps in this [blog post](http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/) by pasting the code into my head.html, and creating a [high-resolution logo](http://localhost:4000/assets/img/logo-high-resolution.png) of this site's favicon and putting it in its proper place (using the recommendations in [this post](https://www.h3xed.com/web-and-internet/how-to-use-og-image-meta-tag-facebook-reddit).
 
-## Update (2018-11-15)
-Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the html head.. That's quite unnecessary, so I undid the above steps, but kept the og:type and og:image since those were missing in Jekyll's SEO plugin (the [Facebook debugger](https://developers.facebook.com/tools/debug/) complained about these).. Also, I had to make some changes in the code to display the image from the relevant post or page by changing file paths to:
+## Update (2018-11-15 - 2018-11-19)
+Apparently the Jekyll SEO plugin takes care of Open Graph, so it appeared twice in the HTML head.. That's quite unnecessary, so I undid the above steps, but kept the og:type since it was not handled in Jekyll SEO, and og:image did not work the way I wanted (the [Facebook debugger](https://developers.facebook.com/tools/debug/) complained about these).. So, I had to make some changes to display the image from the relevant post or page. Since I'm lazy, I don't want to specify the full path to an image every time I enter an image in the front matter of a page (which the Jekyll SEO plugin requires to work properly with the `image` front matter), so I did the following changes: 
 
+1) I implemented three front matter variables:
+ 1. `main- image`
+ 2. `image-class`
+ 3. `image-alt`
+
+2) I modified the `head.html`template:
     {% highlight html %}
     {% raw %}
-    {% if page.image %}
-    <meta content="{{ site.url }}/assets/img/{{ page.image }}" property="og:image">
+    {% if page.main-image %}
+    <meta content="{{ site.url }}/assets/img/{{ page.main-image }}" property="og:image">
     {% else %}
     <meta content="{{ site.url }}/assets/img/logo-high-resolution.png" property="og:image">
     {% endif %}
     {% endraw %}
     {% endhighlight %}
 
-This little exercise gave me a good idea: to avoid the work of including an image in markdown AND naming the image in the front matter `image`, I could just modify the html templates to include the front matter image. I found part of the solution on [Stack Overflow](https://stackoverflow.com/questions/47860861/feature-image-not-showing-for-posts-jekyll) that I adjusted a little bit in order to also include a relevant alt tag (important for accessibility):
+3) I modified the `page.html`, `post.html`and `home.html`:
 
  {% highlight html %}
     {% raw %}
@@ -31,7 +37,7 @@ This little exercise gave me a good idea: to avoid the work of including an imag
     {% endraw %}
     {% endhighlight %}
 
-I also added the following to `_config.yml`:
+4) I also added the following to `_config.yml`:
 
 {% highlight yaml %}
 {% raw %}
@@ -52,4 +58,4 @@ I also added the following to `_config.yml`:
 {% endraw %}
 {% endhighlight %}
 
-The above code in the "post" and "page" templates together with the front matter variables `image`, `image-class` and `image-alt` provided the solution I was looking for - now the featured image is inserted to the html doc with a proper alt tag and the default class "feature-image" unless I want a specific class specified in the front matter, and it is included in the open graph property `og:image`. Of course, I also had to modify the [main.scss](https://github.com/jimdis/jimdis.github.io/blob/master/assets/main.scss) to display the image properly depending on class.
+The above modifications provided the solution I was looking for - now the featured image is inserted to the html doc with a proper alt tag and the default class "feature-image" unless I want a specific class specified in the front matter, and it is included in the open graph property `og:image`. Of course, I also had to modify the [main.scss](https://github.com/jimdis/jimdis.github.io/blob/master/assets/main.scss) to display the image properly depending on class.

@@ -2,7 +2,7 @@
 layout: page
 title: Music
 permalink: /music/
-image: "music.jpg"
+main-image: "music.jpg"
 image-alt: "Fasttracker 2, Reason 4.0 and Ableton Live 10"
 image-class: "wide-image"
 ---
@@ -24,7 +24,7 @@ image-class: "wide-image"
             </tr>
         </table>
         <p><em>Comment</em><br />
-        {{ song.comment }}</p>
+            {{ song.comment }}</p>
         <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ song.soundcloud_id }}&color=%23FF6B6B&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&show_artwork=false"></iframe>
     </div>
     {% endfor %}

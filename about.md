@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 description: "A short story about me and my background"
-image: "jim.png"
+main-image: "jim.png"
 image-alt: "Jim Vectorized Selfie"
 ---
 

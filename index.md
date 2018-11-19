@@ -3,7 +3,7 @@ layout: home
 title: Welcome
 list_title: Blog posts
 exclude: true
-image: "main.jpg"
+main-image: "main.jpg"
 image-alt: "Karlbergskanalen"
 image-class: "wide-image"
 ---
