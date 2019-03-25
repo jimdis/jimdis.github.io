@@ -9,7 +9,7 @@ image-alt: "Jim Vectorized Selfie"
 
 Hello there!
 
-I'm Jim Disenstam, a 36 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1.
+I'm Jim Disenstam, a 37 year old father and wannabe programmer, living in Kungsholmen, Stockholm with my wife Hanna and our two children; Alice: 4 and John: 1.
 
 After getting a degree in economics/finance from Handelshögskolan in Stockholm in 2005, I spent 13 years working in financial advisory and corporate banking, but always feeling at my best in front of Excel rather than doing deals. Producing financial models and writing deeply nested if-statements is when I experienced the flow I used to feel when producing music in FastTracker 2 as a teen in the 90s.
 
@@ -17,7 +17,7 @@ While finance kept getting more and more regulated and less and less creative, a
 
 ## Where to go from here?
 
-So here we are. I'm off to a good start, having finalized the first elementary course in Javascript and feeling that programming is everything I had hoped for and more. I get the same kind of flow experience I used to feel making music and trying to figure out how to make something sound just right within the technical constraints of the tracker. Time flies and the brain gets properly exercised.
+So here we are. I'm off to a good start, having finalized a few courses in programming (mainly client-side JS & Node.js on the server-side) and feeling that programming is everything I had hoped for and more. I get the same kind of flow experience I used to feel making music and trying to figure out how to make something sound just right within the technical constraints of the tracker. Time flies and the brain gets properly exercised.
 
 I'm still very unsure of what to do with my life once I finish the [Web Programmer](https://coursepress.lnu.se/program/webbprogrammerare/) program I'm currently enrolled in. Maybe working as a programmer for a company is the way to learn the tools of the trade properly and get the social stimulus of working with good people around you? Or maybe I'll come up with some ideas of my own that could lead to commercial products? Who knows, right now I'm happy where I am. With two little kids life is plenty busy anyway, so having the freedom to study and code any time and any place is incredibly valuable.
 
@@ -31,7 +31,9 @@ Why not make this page a bit more personal? Since one of my personality traits (
 >
 > -Michelangelo
 
-Always reading something that will hopefully make me wiser (currently "Sapiens"), always having some sort of health or happiness-related project going on (currently brewing Kombucha), always looking at TED talks or YouTube clips about some topic of interest (currently retro gaming consoles), and reading blogs about self improvement, health, training etc (a couple of favorites: [Raptitude](https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/) and [James Clear](https://jamesclear.com), or [Leangains](https://leangains.com) for all your training and diet needs!)
+Always reading something that will hopefully make me wiser, always having some sort of health or happiness-related project going on, always looking at TED talks or YouTube clips and tutorials on some topic of interest, and reading blogs about self improvement, health, training etc (a couple of favorites: [Raptitude](https://www.raptitude.com/2010/07/your-lifestyle-has-already-been-designed/) and [James Clear](https://jamesclear.com), or [Leangains](https://leangains.com) for all your training and diet needs!).
+
+Of course, with two young kids, most self-improvement plans, like spending x minutes per day on meditation, fail miserably when faced with the more pressing and far more vocal needs of the children..
 
 ### Investing
 
