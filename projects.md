@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: Projects
+permalink: /projects/
 description: "Portfolio of projects"
 # main-image: "retro-desktop.png"
 # image-alt: "Retro Desktop application"
@@ -9,6 +9,16 @@ description: "Portfolio of projects"
 ---
 
 Here you'll find my portfolio of projects, both as part of my education and personal projects.
+
+## insiderhandel.nu
+
+[![insiderhandel.nu](/assets/img/insiderhandel.jpg)](https://insiderhandel.nu)
+A web app for searching, filtering and sharing information about trades reported by company insiders on Swedish stock exchanges. The project was built using React with Redux on the client and Node/Express/MongoDB as a backend.
+
+### Links
+
+- [Live Site](https://insiderhandel.nu/)
+- [Blog about the site's creation](https://insiderhandel.nu/blogg) (only in Swedish)
 
 ## Retro Desktop
 
